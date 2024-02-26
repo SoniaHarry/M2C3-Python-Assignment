@@ -1,10 +1,11 @@
+import numpy as np
 
 def weighted_lottery (weights):
     list_container=[]
     for clave, valor in weights.items():
         for _ in range(valor):
             list_container.append(clave)
-    return list_container
+    return np.random.choice(list_container) 
 
 other_weights = {
         'winning': 1,
