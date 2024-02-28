@@ -18,5 +18,4 @@ sales={
 #print(len(list_sales))
 
 for clave, valor in (sales.items()):
-    content= valor*'$'
-    print(clave[0] + ' ' + content)
+    print(clave[0] + ' ' + valor*'$')
