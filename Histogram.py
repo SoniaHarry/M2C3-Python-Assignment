@@ -6,10 +6,10 @@ o $$$$$$$$$$$$
 """
 
 sales={
-    "g":20,
-    "f":42,
-    "t":10,
-    "o":12
+    "google":20,
+    "facebook":42,
+    "twitter":10,
+    "offline":12
 }
 #list_sales= sales.items()
 #print(list(sales))
@@ -19,4 +19,4 @@ sales={
 
 for clave, valor in (sales.items()):
     content= valor*'$'
-    print(clave + ' ' + content)
+    print(clave[0] + ' ' + content)
