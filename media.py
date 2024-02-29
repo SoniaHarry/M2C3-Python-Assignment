@@ -14,7 +14,7 @@ sale_prices = [
 
 index_list= len(sale_prices)
 list_sorted= sorted(sale_prices)
-
+#math.floor es igual que el operador floor division //
 print (list_sorted)
 firslist= list_sorted[:math.floor(index_list/2)]
 print (firslist)
