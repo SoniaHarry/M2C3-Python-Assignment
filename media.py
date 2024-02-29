@@ -19,3 +19,9 @@ print (list_sorted)
 firslist= list_sorted[:math.floor(index_list/2)]
 print (firslist)
 
+lastlist= list_sorted[math.floor(index_list/2)+1:]
+print (lastlist)
+
+media=list_sorted[math.floor(index_list/2):math.floor(index_list/2)+1]
+print(media)
+
